@@ -9,6 +9,8 @@ In general
 
 Postgres
 
+ - **NEW!** Port number = 5432 (default).
+
  - Official tip: [Using a different PostgreSQL Version](https://docs.travis-ci.com/user/database-setup/#using-a-different-postgresql-version)
 
  - Authentication tip: https://github.com/travis-ci/travis-ci/issues/9624
