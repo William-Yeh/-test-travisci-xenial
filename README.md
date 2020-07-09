@@ -19,4 +19,8 @@ Cassandra
 
 RabbitMQ 
 
+ - **NEW!** Install RabbitMQ: https://travis-ci.community/t/rabbitmq-on-xenial/1827
+
+ - **NEW!** Install RabbitMQ management plugin: https://www.rabbitmq.com/management.html
+
  - Tip on Stack Overflow: [Declaring rabbitmq exchanges in travis build setup](https://stackoverflow.com/q/52107517/714426)

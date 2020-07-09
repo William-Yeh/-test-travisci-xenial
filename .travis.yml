@@ -11,6 +11,7 @@ addons:
     packages:
       - postgresql-10
       - postgresql-client-10
+      - rabbitmq-server
 env:
   global:
     - PGPORT=5432
@@ -28,6 +29,7 @@ before_install:
 
 install:
   - echo "==> Installing RabbitMQ tools (under Travis CI)..."
+  - sudo rabbitmq-plugins enable rabbitmq_management
   - wget http://localhost:15672/cli/rabbitmqadmin
   - chmod +x rabbitmqadmin
   - sudo mv rabbitmqadmin /usr/sbin/
