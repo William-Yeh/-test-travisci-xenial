@@ -17,6 +17,8 @@ Postgres
 
 Cassandra
 
+ - **NEW!** Example: https://github.com/aio-libs/aiocassandra/blob/master/.travis.yml
+
 RabbitMQ 
 
  - **NEW!** Install RabbitMQ: https://travis-ci.community/t/rabbitmq-on-xenial/1827
